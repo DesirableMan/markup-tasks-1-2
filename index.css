@@ -1,0 +1,222 @@
+body {
+    background-color: #68a8dc;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+main {
+    margin-top: 0;
+}
+.first {
+    width: 1250px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.all-products {
+    box-sizing: border-box;
+    width: 1250px;
+    background-color: #68a8dc;
+    margin: 0;
+    display: block;
+}
+
+.content {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding:15px 15px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 100px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #e8dede;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    text-shadow: 0 0 10px  #fff,
+                     0 0 20px  #fff,
+                     0 0 30px  #fff,
+                     0 0 40px  #ff00de,
+                     0 0 70px  #ff00de,
+                     0 0 80px  #ff00de,
+                     0 0 100px #ff00de,
+                     0 0 150px #ff00de;
+}
+
+.picture-product,
+.picture-author {
+    width: 350px;
+    padding: 15px;
+    margin: 0;
+}
+
+
+.description-product {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.author-name {
+    display: flex;
+}
+
+
+
+.trailer {
+    padding: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.hint {
+    font-style: italic;
+}
+
+.title {
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+figcaption {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+    color: #9C1A1C;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px auto;
+
+}
+
+li {
+    line-height: 30px;
+}
+
+.audio-content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.new-content {
+    margin: 60px;
+}
+
+form {
+    display: inline-block;
+    margin-left: 50px;
+    text-align: right;
+}
+
+
+
+input[type="text"],
+input[type="date"],
+input[type="mail"],
+input[type="url"]{
+    font-size: 20px;
+    font-family: inherit;
+    height: 40px;
+    width: 400px;
+    padding-right: 10px;
+    padding-left: 5px;
+    margin: 10px 20px 20px 30px;
+    border: 3px solid #68a8dc;
+    outline: none;
+
+}
+
+textarea {
+    font-size: 20px;
+    font-family: inherit;
+    min-height: 100px;
+    max-height: 600px;
+    min-width: 400px;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 5px;
+    margin: 10px 20px 20px 30px;
+    border: 3px solid #68a8dc;
+    outline: none;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: bold;
+    width: 300px;
+    height: 80px;
+    color: #ccc;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: #aaf;
+    text-shadow: 0 1px  0    #ccc,
+                 0 2px  0    #c9c9c9,
+                 0 3px  0    #bbb,
+                 0 4px  0    #b9b9b9,
+                 0 5px  0    #aaa,
+                 0 6px  1px  rgba(0,0,0, .1),
+                 0 0    5px  rgba(0,0,0, .1),
+                 0 1px  3px  rgba(0,0,0, .3),
+                 0 3px  5px  rgba(0,0,0, .2),
+                 0 5px  10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0, .2),
+                 0 20px 20px rgba(0,0,0,.15);
+}
+
+input[type="file"] {
+    font-size: 20px;
+    font-family: inherit;
+    color: #d04420;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+textarea:hover,
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="mail"]:hover,
+input[type="url"]:hover {
+    border: 3px solid #166fc1;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="mail"]:focus,
+input[type="url"]:focus {
+    border: 3px solid #c11691;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #989a9b;
+}
+
+button[type="submit"]:focus,
+button[type="reset"]:focus {
+    background-color:#166fc1;
+}
